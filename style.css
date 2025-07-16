@@ -1,0 +1,33 @@
+body {
+    background: #111;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.neon {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Tajawal', Arial, sans-serif;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #0ff,
+        0 0 20px #0ff,
+        0 0 40px #0ff,
+        0 0 80px #0ff;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.6);
+    box-shadow: 0 0 20px #0ff3;
+}
